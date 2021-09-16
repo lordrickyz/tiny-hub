@@ -1,44 +1,53 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Tiny Hub</title>
-  <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Tiny Hub</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
   <div class='nav-container'>
     <nav class='nav-section'>
       <ul class='nav-ul'>
-        <li>app</li>
-        <li>blog</li>
-        <li>shop</li>
-        <li>note</li>
-        <li>game</li>
+        <li>
+          <a href=''>app</a>
+        </li>
+        <li>
+          <a href=''>blog</a>
+        </li>
+        <li>
+          <a href=''>shop</a>
+        </li>
+        <li>
+          <a href=''>note</a>
+        </li>
+        <li>
+          <a href=''>game</a>
+        </li>
       </ul>
     </nav>
   </div>
 
   <section class='image-carousel-container'>
-    <div class='image-carousel-section'>
-      <button class='left-button'> 
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
-      </button>
-      <div>
-        <div><h1>tiny</h1><h1> app</h1></div>
-        <span>coming soon</span>
-      <div>
-      <button class='right-button'> 
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg> 
-      </button>
-    </div>
+    <aside class='left'>
+      <button id='left-button'> < </button>
+    </aside>
+    <main>
+      <span> Tiny <span id='app-name' class='app-name'></span></span>
+     
+      <span>coming soon</span>
+    <main>
+    <aside>
+      <button id='right-button'> > </button>
+    </aside>
   <section>
 
 
 
-  <script src="index.js"></script>
 </body>
 </html>
