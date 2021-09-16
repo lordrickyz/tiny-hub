@@ -1,0 +1,24 @@
+.nav-container {
+
+}
+
+.nav-section {
+
+}
+
+.nav-ul {
+  line-height: 100px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.image-carousel-section {
+  text-align: center;
+}
+
+.left-button {
+  
+}
