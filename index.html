@@ -8,46 +8,52 @@
     <title>Tiny Hub</title>
     <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class='nav-container'>
-    <nav class='nav-section'>
-      <ul class='nav-ul'>
-        <li>
-          <a href=''>app</a>
-        </li>
-        <li>
-          <a href=''>blog</a>
-        </li>
-        <li>
-          <a href=''>shop</a>
-        </li>
-        <li>
-          <a href=''>note</a>
-        </li>
-        <li>
-          <a href=''>game</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <header class='header-section'>
+    <ul class='header-ul'>
+      <li>
+        <a id='link-app' class='linkers' href=''>app</a>
+      </li>
+      <li>
+        <a id='link-blog' class='linkers' href=''>blog</a>
+      </li>
+      <li>
+        <a id='link-shop' class='linkers' href=''>shop</a>
+      </li>
+      <li>
+        <a id='link-note' class='linkers' href=''>note</a>
+      </li>
+      <li>
+        <a id='link-game' class='linkers' href=''>game</a>
+      </li>
+    </ul>
+  </header>
 
-  <section class='image-carousel-container'>
-    <aside class='left'>
-      <button id='left-button'> < </button>
-    </aside>
-    <main>
-      <span> Tiny <span id='app-name' class='app-name'></span></span>
-     
-      <span>coming soon</span>
-    <main>
-    <aside>
-      <button id='right-button'> > </button>
-    </aside>
+  <section class='section-container'>
+    <div class='carousel-container'>
+
+      <aside class='left-aside' >
+        <button id='left-button' class='side-btns'> < </button>
+      </aside>
+
+      <main class='carousel-center'>
+        <div id='app-title'> Tiny <span id='app-name' class='app-name'></span></div>
+      
+        <div id='coming-soon'>coming soon</div>
+      </main>
+
+      <aside class='right-aside'>
+        <button id='right-button' class='side-btns'> > </button>
+      </aside>
+      
+    </div>
   <section>
 
-
-
 </body>
+
 </html>

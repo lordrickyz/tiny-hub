@@ -1,24 +1,71 @@
-.nav-container {
-
-}
-
-.nav-section {
-
-}
-
-.nav-ul {
+.header-ul {
   line-height: 100px;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Permanent Marker', cursive;  
+  font-size: x-large;
+  font-weight: bold;
 }
 
-.image-carousel-container {
+.section-container {
+  width: 100%;
+}
+
+.carousel-container {
+  margin-top: 10%;
+  place-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   text-align: center;
 }
 
-.left-button {
+.carousel-center {
+  width: 70%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Permanent Marker', cursive;  
+  font-weight: bold;
+}
 
+#app-title {
+  font-size: 100px;
+}
+
+#coming-soon {
+  font-size: 25px;
+}
+
+.left-aside {
+  width: 50%;
+}
+
+#left-button {
+  margin-left: 50%;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: transparent;
+}
+
+.right-aside {
+  width: 50%;
+}
+
+#right-button {
+  margin-right: 50%;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: transparent;
+}
+
+.header-ul > li > a {
+  text-decoration: none;
+  color: black;
 }
